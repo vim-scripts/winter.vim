@@ -5,8 +5,8 @@
 " Abstract___: A color sheme file (only for GVIM) which uses a light grey      "
 "              background makes the VIM look like the scenes of winter.        "
 " Author_____: CHE Wenlong <chewenlong AT buaa.edu.cn>                         "
-" Version____: 1.2                                                             "
-" Last_Change: February 16, 2009                                               "
+" Version____: 1.3                                                             "
+" Last_Change: February 26, 2009                                               "
 "                                                                              "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -36,8 +36,8 @@ let colors_name = "winter"
 
 hi Normal           guifg=#000000 guibg=#D4D0C8 gui=NONE
 hi Visual           guifg=#FFFFFF guibg=#000080 gui=NONE
-hi Cursor           guifg=#D4D0C8 guibg=#0000FF gui=NONE
-hi LineNr           guifg=#707070 guibg=#E0E0E0 gui=NONE
+hi Cursor           guifg=#D4D0C8 guibg=#FF0000 gui=NONE
+hi LineNr           guifg=#707070 guibg=NONE    gui=NONE
 hi Title            guifg=#202020 guibg=NONE    gui=NONE
 hi Underlined       guifg=#202020 guibg=NONE    gui=UNDERLINE
 
